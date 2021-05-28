@@ -1,12 +1,11 @@
-const moment = require('moment')
-const needle = require('needle')
+const https = require('https')
 const UserError = require('../user_error')
 
 module.exports.server = function (serv, settings) {
   serv.ban = async (uuid, reason) => {
     if (!serv.bannedPlayers[uuid]) {
       serv.bannedPlayers[uuid] = {
-        time: +moment(),
+        time: +Date.now(),
         reason: reason || 'Your account is banned!'
       }
       return true
@@ -15,7 +14,7 @@ module.exports.server = function (serv, settings) {
   serv.banIP = async (IP, reason) => {
     if (!serv.bannedIPs[IP]) {
       serv.bannedIPs[IP] = {
-        time: +moment(),
+        time: +Date.now(),
         reason: reason || 'Your IP is banned!'
       }
       Object.keys(serv.players)
@@ -30,15 +29,26 @@ module.exports.server = function (serv, settings) {
   }
 
   serv.getUUIDFromUsername = async username => {
-    return await new Promise((resolve, reject) => {
-      needle('get', 'https://api.mojang.com/users/profiles/minecraft/' + username, { json: true })
-        .then((response) => {
-          if (!response.body) throw new Error('username not found')
-          const idstr = response.body.id
-          if (typeof idstr !== 'string') throw new Error('username not found')
-          resolve(uuidInParts(idstr))
+    return new Promise(function (resolve, reject) {
+      const req = https.request({
+        hostname: 'api.mojang.com',
+        port: 443,
+        path: '/users/profiles/minecraft/' + username,
+        method: 'GET'
+      }, res => {
+        res.on('data', d => {
+          const body = JSON.parse(d.toString())
+
+          res.on('end', function () {
+            resolve(uuidInParts(body.id))
+          })
         })
-        .catch(err => { throw err })
+        res.on('close', () => {
+          if (res.statusCode === 204) reject('username not found')
+        })
+      })
+
+      req.end()
     })
   }
 
