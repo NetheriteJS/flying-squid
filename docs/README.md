@@ -1,4 +1,4 @@
-FLYING-SQUID
+flying-squid <3 netherite edition
 ================
 
 [![NPM version](https://img.shields.io/npm/v/flying-squid.svg)](http://npmjs.com/package/flying-squid)
