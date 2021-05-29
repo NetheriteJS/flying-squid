@@ -246,13 +246,13 @@ squid.supportedVersions.forEach((supportedVersion, i) => {
           await once(bot2, 'forcedMove')
           assertPosEqual(bot2.entity.position, bot.entity.position)
         })
-        // test('can tp with relative positions', async () => {
-          // await onGround(bot)
-          // const initialPosition = bot.entity.position.clone()
-          // bot.chat('/tp ~1 ~-2 ~3')
-          // await once(bot, 'forcedMove')
-          // assertPosEqual(bot.entity.position, initialPosition.offset(1, -2, 3), 2)
-        // })
+      // test('can tp with relative positions', async () => {
+        // await onGround(bot)
+        // const initialPosition = bot.entity.position.clone()
+        // bot.chat('/tp ~1 ~-2 ~3')
+        // await once(bot, 'forcedMove')
+        // assertPosEqual(bot.entity.position, initialPosition.offset(1, -2, 3), 2)
+      // })
         test('can tp somebody else with relative positions', async () => {
           await Promise.all([onGround(bot), onGround(bot2)])
           const initialPosition = bot2.entity.position.clone()
