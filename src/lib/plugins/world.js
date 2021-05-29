@@ -168,13 +168,13 @@ module.exports.player = function (player, serv, settings) {
       z: chunkZ,
       chunk: column
     }, ({ x, z, chunk }) => {
-      const blockEntities = chunk.blockEntities ? chunk.blockEntities.map((e) => {
-        return {
-          type: 'compound',
-          name: '',
-          value: e
-        }
-      }) : []
+      const blockEntities = chunk.blockEntities
+        ? chunk.blockEntities.map((e) => ({
+            type: 'compound',
+            name: '',
+            value: e
+          }))
+        : []
 
       player._client.write('map_chunk', {
         x: x,
