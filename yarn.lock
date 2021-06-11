@@ -3973,7 +3973,8 @@ prismarine-chat@^1.0.0:
 
 prismarine-chunk@NetheriteJS/netheriteChunk:
   version "1.22.0"
-  resolved "https://codeload.github.com/NetheriteJS/netheriteChunk/tar.gz/492ac47a6d006b475725e47e2918314580e73675"
+  uid "07bb52b5e680fab4a029505eddcd232efbca530b"
+  resolved "https://codeload.github.com/NetheriteJS/netheriteChunk/tar.gz/07bb52b5e680fab4a029505eddcd232efbca530b"
   dependencies:
     minecraft-data "^2.61.0"
     prismarine-block "^1.2.0"
