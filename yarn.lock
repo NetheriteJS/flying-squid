@@ -3369,9 +3369,9 @@ minecraft-folder-path@^1.1.0:
   integrity sha512-qaUSbKWoOsH9brn0JQuBhxNAzTDMwrOXorwuRxdJKKKDYvZhtml+6GVCUrY5HRiEsieBEjCUnhVpDuQiKsiFaw==
 
 minecraft-protocol@^1.15.0, minecraft-protocol@^1.17.0:
-  version "1.24.2"
-  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.24.2.tgz#db21abfd6418296ce2f96a12a8108012a2b8cdcb"
-  integrity sha512-OvG18Pd5AEjdDjlMXFDdMClxe2hbBnyPSbV176iUU3PB7QN9FXXmxRSPM1LxbyQ40ADXZiDHcp5s4C72AxgPgQ==
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.25.0.tgz#dc8b9498eb8147b02e23a8249b7326ebc15dea9c"
+  integrity sha512-xAyjw03t/sKv7xBk4AxZnLMv5G/cJuXExAMtpK1lxZ5ILHfJObtz9m12tc1eiR7nXkoBgyUQptTZX81OWXyFtQ==
   dependencies:
     "@azure/msal-node" "^1.0.0-beta.3"
     "@xboxreplay/xboxlive-auth" "^3.3.3"
