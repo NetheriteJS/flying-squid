@@ -4045,16 +4045,10 @@ prismarine-windows@^2.0.0, prismarine-windows@^2.2.0:
     minecraft-data "^2.74.0"
     prismarine-item "^1.5.0"
 
-prismarine-world@^3.5.0:
+prismarine-world@^3.5.0, prismarine-world@netheritejs/netheriteworld:
   version "3.6.0"
-  resolved "https://registry.yarnpkg.com/prismarine-world/-/prismarine-world-3.6.0.tgz#9b9631f09f7ddd4e1cee142d6537e2ab0335ded7"
-  integrity sha512-rAudKWNOfiDrDaBlXx9/5B4CO/kc5G1RBq3GFAu1ov6GwUq8Ib8KXYeHPsoJwN3tfVDuFaJjncgsShqdoSmP0w==
-  dependencies:
-    vec3 "^0.1.7"
-
-prismarine-world@netheritejs/netheriteworld:
-  version "3.5.0"
-  resolved "https://codeload.github.com/netheritejs/netheriteworld/tar.gz/5646e684d8371813d65cb2dbca068ce3c6d72cae"
+  uid "6837b200851cdf64bf8d804f9c71f0a17238c767"
+  resolved "https://codeload.github.com/netheritejs/netheriteworld/tar.gz/6837b200851cdf64bf8d804f9c71f0a17238c767"
   dependencies:
     vec3 "^0.1.7"
 
