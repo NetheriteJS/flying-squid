@@ -4047,8 +4047,8 @@ prismarine-windows@^2.0.0, prismarine-windows@^2.2.0:
 
 prismarine-world@^3.5.0, prismarine-world@netheritejs/netheriteworld:
   version "3.6.0"
-  uid "6837b200851cdf64bf8d804f9c71f0a17238c767"
-  resolved "https://codeload.github.com/netheritejs/netheriteworld/tar.gz/6837b200851cdf64bf8d804f9c71f0a17238c767"
+  uid "753d07f90e3329eaeef7df50333efe4387fc96ec"
+  resolved "https://codeload.github.com/netheritejs/netheriteworld/tar.gz/753d07f90e3329eaeef7df50333efe4387fc96ec"
   dependencies:
     vec3 "^0.1.7"
 
