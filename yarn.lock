@@ -3411,9 +3411,9 @@ minecraft-wrap@^1.2.3:
     yggdrasil "^1.1.1"
 
 mineflayer@^3.0.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-3.6.0.tgz#9baa1b0431d0af5a66f5dcf6b3151ab69124312e"
-  integrity sha512-Eiht5IAcJASoQNxJf3Zg/yEedMLPNd4vO6I7I7she1l92nzeXOvEd2fpp1y2dlpV1gQWwOnsP13dW7yk/ZS+xQ==
+  version "3.9.0"
+  resolved "https://registry.yarnpkg.com/mineflayer/-/mineflayer-3.9.0.tgz#24be153756fe99438fea44cd0a868435308381c3"
+  integrity sha512-nYZqtYw0FsMpv3kI8yXRIqHvpXlirRXy4grEHXZx7xqK4x3OQ7rK4cyDvShDi4M2HcwrlaRG4eB5ygKp7KdBoA==
   dependencies:
     minecraft-data "^2.79.0"
     minecraft-protocol "^1.17.0"
@@ -3426,7 +3426,7 @@ mineflayer@^3.0.0:
     prismarine-physics "^1.0.4"
     prismarine-recipe "^1.1.0"
     prismarine-windows "^2.2.0"
-    prismarine-world "^3.5.0"
+    prismarine-world "^3.6.0"
     protodef "^1.8.0"
     typed-emitter "^1.2.0"
     vec3 "^0.1.6"
@@ -4045,7 +4045,7 @@ prismarine-windows@^2.0.0, prismarine-windows@^2.2.0:
     minecraft-data "^2.74.0"
     prismarine-item "^1.5.0"
 
-prismarine-world@^3.5.0, prismarine-world@netheritejs/netheriteworld:
+prismarine-world@^3.6.0, prismarine-world@netheritejs/netheriteworld:
   version "3.6.0"
   uid "6837b200851cdf64bf8d804f9c71f0a17238c767"
   resolved "https://codeload.github.com/netheritejs/netheriteworld/tar.gz/6837b200851cdf64bf8d804f9c71f0a17238c767"
