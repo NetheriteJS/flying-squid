@@ -3359,9 +3359,9 @@ mimic-fn@^2.1.0:
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
 minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0:
-  version "2.84.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.84.0.tgz#a3a9f8fe64627b264175f7250b850428fc2c8602"
-  integrity sha512-3l8wZ62xlxclAG76r+ZUca/EfFBHeHI1o0z2Jc3Eu2DPF8lMgsAjOAWx9dVRK/s268XYOeoLdddvs0usJdeslg==
+  version "2.89.3"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.89.3.tgz#73fff41f9a6dc523c08135877d5193102750fe17"
+  integrity sha512-hEc9GTIkRxIB0hGRDvGDRXQ7brbnFEq/+YQKNTSG3yK/IvhB5E1hnRmOwP78TiHroq9jNwFzNUG6wqN1B/3lNw==
 
 minecraft-folder-path@^1.1.0:
   version "1.2.0"
