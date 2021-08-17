@@ -4038,9 +4038,9 @@ prismarine-recipe@^1.1.0:
   integrity sha512-eFmriEWoe6S6OSVbOJnsXpaBuzeIzjaGymDUTCtrOu80734NWKI7outdLI6R2ztJ+f2PFIkFmpkazAdScStGNA==
 
 prismarine-windows@^2.0.0, prismarine-windows@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/prismarine-windows/-/prismarine-windows-2.2.0.tgz#279ee7a8bb77550d4e1cc9b35754b729b5a12bd0"
-  integrity sha512-PsOS3rHz4KPbs4XMeGcr+tnCpI5Ea8XqYa1kJay1y7+LpRb3sf5HxjxuPJqogWbmkZQuXogL3x5KcN93v4eEqw==
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/prismarine-windows/-/prismarine-windows-2.3.0.tgz#543512f332eb863e9d75f2c3a2b9900542191713"
+  integrity sha512-W3U+fKq9ZlaumZ9VkmDLBg12IYBMs25HvC3gPt5QcjQaBfg/8iBqnCSRdKUjPsT51L4ImDPS2qBmO+yqnS06xA==
   dependencies:
     minecraft-data "^2.74.0"
     prismarine-item "^1.5.0"
