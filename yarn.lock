@@ -3358,10 +3358,10 @@ mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0:
-  version "2.84.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.84.0.tgz#a3a9f8fe64627b264175f7250b850428fc2c8602"
-  integrity sha512-3l8wZ62xlxclAG76r+ZUca/EfFBHeHI1o0z2Jc3Eu2DPF8lMgsAjOAWx9dVRK/s268XYOeoLdddvs0usJdeslg==
+minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0, minecraft-data@^2.85.1:
+  version "2.93.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.93.0.tgz#5f67771fc14c4414e641543b661ecf67e896cbf1"
+  integrity sha512-Ta3AH5x3FHhN9gxofC2CCG8McDEN9xuPsjkWsQrWY2fmHRYY+2bJY67sMQfpygTHOtAJ2tPz4z/Ay01j/BQDgw==
 
 minecraft-folder-path@^1.1.0:
   version "1.2.0"
@@ -3369,9 +3369,9 @@ minecraft-folder-path@^1.1.0:
   integrity sha512-qaUSbKWoOsH9brn0JQuBhxNAzTDMwrOXorwuRxdJKKKDYvZhtml+6GVCUrY5HRiEsieBEjCUnhVpDuQiKsiFaw==
 
 minecraft-protocol@^1.15.0, minecraft-protocol@^1.17.0:
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.25.0.tgz#dc8b9498eb8147b02e23a8249b7326ebc15dea9c"
-  integrity sha512-xAyjw03t/sKv7xBk4AxZnLMv5G/cJuXExAMtpK1lxZ5ILHfJObtz9m12tc1eiR7nXkoBgyUQptTZX81OWXyFtQ==
+  version "1.26.5"
+  resolved "https://registry.yarnpkg.com/minecraft-protocol/-/minecraft-protocol-1.26.5.tgz#500e690ad82250b2ab991b2ee61bff907796dbd8"
+  integrity sha512-PKYUeyG+mb4MkwWbX4XrQ5SG5B4PDE6XF3Fm+z1iRwGck23DFVV3hxRHkUqBUxe0TxKrOXKGzhvT+vn541QHOw==
   dependencies:
     "@azure/msal-node" "^1.0.0-beta.3"
     "@xboxreplay/xboxlive-auth" "^3.3.3"
@@ -3381,7 +3381,7 @@ minecraft-protocol@^1.15.0, minecraft-protocol@^1.17.0:
     endian-toggle "^0.0.0"
     lodash.get "^4.1.2"
     lodash.merge "^4.3.0"
-    minecraft-data "^2.70.0"
+    minecraft-data "^2.85.1"
     minecraft-folder-path "^1.1.0"
     node-fetch "^2.6.1"
     node-rsa "^0.4.2"
