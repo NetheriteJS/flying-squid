@@ -4001,16 +4001,23 @@ prismarine-entity@^1.0.0:
     vec3 "^0.1.4"
 
 prismarine-item@^1.5.0, prismarine-item@^1.6.0:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/prismarine-item/-/prismarine-item-1.9.1.tgz#eb699b5715130bd28b15f5c2926d501f5c3e3995"
-  integrity sha512-oLb3F5M/O25onN2liiW7ahavR8Gh+ZWxrV7rjA4Q09xJ+Jo+rBHceUmtdNifaGgBOS/joPud/f6SyQ9iqSvwmQ==
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/prismarine-item/-/prismarine-item-1.11.2.tgz#8d6f6737b7f2cf1442ce49c944e632f363efdda2"
+  integrity sha512-OMkI/4g4N+Z0+63MIVbnxRZOjjyGs9E0KZ/v5UQZ0M6ZsxTGLHl2IqQAxVr59GrM4DsB8S+2Cp3A7t3EKZ1asQ==
   dependencies:
-    prismarine-nbt "^1.4.0"
+    prismarine-nbt "^2.0.0"
 
 prismarine-nbt@^1.3.0, prismarine-nbt@^1.4.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/prismarine-nbt/-/prismarine-nbt-1.5.0.tgz#b06b43f940fb7bf74f6d084f6a48e4b8d0046175"
   integrity sha512-8vs0MV94kl6I2YUFE5IG4vOBYEw8nG0J0WaoLV6zP1smle5o6haeHqobn07vmcHJZ8iUz2f8oq6T3Y71DHvYpA==
+  dependencies:
+    protodef "^1.9.0"
+
+prismarine-nbt@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/prismarine-nbt/-/prismarine-nbt-2.1.0.tgz#10c1976c4ece18767d4153ea6b3b48933476e6e5"
+  integrity sha512-0k8295mPzAr1H7CbZvUuwGc3oKCdGvHWxIXSQ1C867kyoReZj/gOo+Stocxiu/R9WOMAGFTv0xc9q6cBVSIblw==
   dependencies:
     protodef "^1.9.0"
 
