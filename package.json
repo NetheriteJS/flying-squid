@@ -61,7 +61,7 @@
     "jest": "^26.0.1",
     "longjohn": "^0.2.12",
     "minecraft-wrap": "^1.2.3",
-    "mineflayer": "^3.0.0",
+    "mineflayer": "^4.0.0",
     "standard": "^16.0.1"
   }
 }
