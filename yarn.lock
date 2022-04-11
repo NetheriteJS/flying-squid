@@ -3358,10 +3358,10 @@ mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0:
-  version "2.84.0"
-  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.84.0.tgz#a3a9f8fe64627b264175f7250b850428fc2c8602"
-  integrity sha512-3l8wZ62xlxclAG76r+ZUca/EfFBHeHI1o0z2Jc3Eu2DPF8lMgsAjOAWx9dVRK/s268XYOeoLdddvs0usJdeslg==
+minecraft-data@^2.118.0, minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0:
+  version "2.221.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.221.0.tgz#b6a6629c9c33bc640e540de3ebe94a96d0e8b0bc"
+  integrity sha512-0AhqzbIKb6WqPSF6qBevaPryeWOz545hLxt6q+gfJF8YIQX/YfkyX/nXWhl+pSIS2rTBcQ0RJkRCtTeRzQwHDA==
 
 minecraft-folder-path@^1.1.0:
   version "1.2.0"
@@ -4001,16 +4001,24 @@ prismarine-entity@^1.0.0:
     vec3 "^0.1.4"
 
 prismarine-item@^1.5.0, prismarine-item@^1.6.0:
-  version "1.9.1"
-  resolved "https://registry.yarnpkg.com/prismarine-item/-/prismarine-item-1.9.1.tgz#eb699b5715130bd28b15f5c2926d501f5c3e3995"
-  integrity sha512-oLb3F5M/O25onN2liiW7ahavR8Gh+ZWxrV7rjA4Q09xJ+Jo+rBHceUmtdNifaGgBOS/joPud/f6SyQ9iqSvwmQ==
+  version "1.11.4"
+  resolved "https://registry.yarnpkg.com/prismarine-item/-/prismarine-item-1.11.4.tgz#30487752da0209d252440ef35ffaf3827c6bc291"
+  integrity sha512-hWzSm0cXLvgLvoTM28lX1ody4q8hRMgZH3GngGczb9Ipc/qEf3/+zBX6LA4giBeK4MHFVYbwTCVkp/F8GscgQg==
   dependencies:
-    prismarine-nbt "^1.4.0"
+    minecraft-data "^2.118.0"
+    prismarine-nbt "^2.0.0"
 
 prismarine-nbt@^1.3.0, prismarine-nbt@^1.4.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/prismarine-nbt/-/prismarine-nbt-1.5.0.tgz#b06b43f940fb7bf74f6d084f6a48e4b8d0046175"
   integrity sha512-8vs0MV94kl6I2YUFE5IG4vOBYEw8nG0J0WaoLV6zP1smle5o6haeHqobn07vmcHJZ8iUz2f8oq6T3Y71DHvYpA==
+  dependencies:
+    protodef "^1.9.0"
+
+prismarine-nbt@^2.0.0:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/prismarine-nbt/-/prismarine-nbt-2.2.1.tgz#a263e08b36fd27a682024549a8823d82f9ad30d9"
+  integrity sha512-Mb50c58CPnuZ+qvM31DBa08tf9UumlTq1LkvpMoUpKfCuN05GZHTqCUwER3lxTSHLL0GZKghIPbYR/JQkINijQ==
   dependencies:
     protodef "^1.9.0"
 
