@@ -3358,10 +3358,15 @@ mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0:
+minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.79.0:
   version "2.84.0"
   resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.84.0.tgz#a3a9f8fe64627b264175f7250b850428fc2c8602"
   integrity sha512-3l8wZ62xlxclAG76r+ZUca/EfFBHeHI1o0z2Jc3Eu2DPF8lMgsAjOAWx9dVRK/s268XYOeoLdddvs0usJdeslg==
+
+minecraft-data@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.0.0.tgz#ee99428b812d9ea295e6cfc21e243b761f9c128b"
+  integrity sha512-8gChk4VUYky3XfMRO+YE1eS7OHC7uzEbxuosav7f5P8rewJ/8XNIPTmXYZOWnC2MoYCFwHRNHhwpt2YuxsDYqw==
 
 minecraft-folder-path@^1.1.0:
   version "1.2.0"
@@ -4038,11 +4043,11 @@ prismarine-recipe@^1.1.0:
   integrity sha512-eFmriEWoe6S6OSVbOJnsXpaBuzeIzjaGymDUTCtrOu80734NWKI7outdLI6R2ztJ+f2PFIkFmpkazAdScStGNA==
 
 prismarine-windows@^2.0.0, prismarine-windows@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/prismarine-windows/-/prismarine-windows-2.2.0.tgz#279ee7a8bb77550d4e1cc9b35754b729b5a12bd0"
-  integrity sha512-PsOS3rHz4KPbs4XMeGcr+tnCpI5Ea8XqYa1kJay1y7+LpRb3sf5HxjxuPJqogWbmkZQuXogL3x5KcN93v4eEqw==
+  version "2.4.4"
+  resolved "https://registry.yarnpkg.com/prismarine-windows/-/prismarine-windows-2.4.4.tgz#020b2ff0e5b1d0dc7ea23172411a6288597076cb"
+  integrity sha512-bjva7DtEu9V37SGgCqMiAgMRtwTypqyB95bS8VULUxoMPNhbcyTxdQhU6Fe2OFq4ufT9x3hGMKpMwJy+oepE0A==
   dependencies:
-    minecraft-data "^2.74.0"
+    minecraft-data "^3.0.0"
     prismarine-item "^1.5.0"
 
 prismarine-world@^3.5.0, prismarine-world@netheritejs/netheriteworld:
