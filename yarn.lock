@@ -3358,10 +3358,15 @@ mimic-fn@^2.1.0:
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
   integrity sha512-OqbOk5oEQeAZ8WXWydlu9HJjz9WVdEIvamMCcXmuqUYjTknH/sqsWvhQ3vgwKFRR1HpjvNBKQ37nbJgYzGqGcg==
 
-minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.63.0, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0:
+minecraft-data@^2.51.0, minecraft-data@^2.61.0, minecraft-data@^2.62.1, minecraft-data@^2.70.0, minecraft-data@^2.73.1, minecraft-data@^2.74.0, minecraft-data@^2.79.0:
   version "2.84.0"
   resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-2.84.0.tgz#a3a9f8fe64627b264175f7250b850428fc2c8602"
   integrity sha512-3l8wZ62xlxclAG76r+ZUca/EfFBHeHI1o0z2Jc3Eu2DPF8lMgsAjOAWx9dVRK/s268XYOeoLdddvs0usJdeslg==
+
+minecraft-data@^3.15.3:
+  version "3.15.3"
+  resolved "https://registry.yarnpkg.com/minecraft-data/-/minecraft-data-3.15.3.tgz#c322f92793011431c9868edae53882f5dd03d787"
+  integrity sha512-gUyYrX+0Y/I/N5vXdwUuGRLWMZaVak5GAFmNK1Hampk0VS5a+yqoKzJYfR96i0eHAFw0IEdarxd5Z2OvUh77gA==
 
 minecraft-folder-path@^1.1.0:
   version "1.2.0"
